@@ -15,10 +15,12 @@ This project aims to predict shipping costs for trade routes between China and A
 * **Tool:** Google Colab
 
 ## How to use
-1. **Clone this repository** to your local machine or upload the files to Google Colab.
-2. **Ensure the dataset** `china_africa_trade.xlsx` is present in the root folder.
-3. **Install dependencies:** Run `!pip install --upgrade --force-reinstall fitter` (specifically for Google Colab environments).
-4. **Execute the analysis:** Open and run the `ML_Log_China_Africa.ipynb` notebook.
+1. Clone this repository to your local machine or open the notebook directly in Google Colab.
+2. Dataset Setup (Google Drive):
+-Ensure the file china_africa_trade.xlsx is uploaded to your Google Drive in the path: MyDrive/.
+-The notebook is configured to mount Google Drive and read the data from /content/drive/MyDrive/china_africa_trade.xlsx.
+3. Install dependencies: Run the first cell in the notebook to install necessary libraries: !pip install --upgrade --force-reinstall fitter.
+4. Execute the analysis: Run all cells in the ML_Log_China_Africa.ipynb notebook to reproduce the results and model selection.
 
 ## Feedback
 I am in the early stages of my Machine Learning journey. I am open to suggestions, corrections, and any feedback that helps me improve my technical skills!
